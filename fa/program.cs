@@ -59,7 +59,6 @@ namespace fans
         }
         public bool? Run(IEnumerable<char> s)
         {
-            return false;
             State current = InitialState;
             foreach (var item in s)
             {
@@ -116,7 +115,6 @@ namespace fans
         }
         public bool? Run(IEnumerable<char> s)
         {
-            return false;
             State current = InitialState;
             foreach (var item in s)
             {
