@@ -12,8 +12,6 @@ namespace fans
     public Dictionary<char, State> Transitions;
     public bool IsAcceptState;
   }
-
-
   public class FA1
   {
         public static State a = new State()
